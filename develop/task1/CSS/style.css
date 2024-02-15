@@ -1,0 +1,111 @@
+body {
+    /*background-color: #bdc97e;*/
+    font-family: 'Caveat', cursive;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    /* Початкова прозорість для анімації затемнення */
+    transition: opacity 1s ease;
+    background: linear-gradient(to bottom, #080843f9, #0d0d36f9, #100e36f9, #150bcff9);
+    /* Змінено колір фону на сірий */
+
+}
+
+.buttons {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    /* відстань між кнопками. */
+    gap: 20px;
+    /* відстань до кнопок */
+    margin-top: 20px;
+    padding-bottom: 5%;
+}
+
+.button {
+    padding: 5px 10px;
+    background-color: #ffcc00;
+    /* Колір кнопок соціальних мереж */
+    color: #1b1d28b1;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+
+}
+
+.button:hover {
+    background-color: #ff2667;
+    /* Колір кнопок при наведенні */
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+nav {
+    margin: top 5px;
+    ;
+    margin-bottom: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #bbbcd3;
+
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 400;
+    /* відстань між строками */
+    margin-bottom: 20px;
+    color: #b9bb9c;
+    /* Колір заголовку на привітальній сторінці */
+
+}
+
+p1:hover {
+    text-decoration: underline;
+}
+
+h2 {
+
+    font-size: 35px;
+    font-weight: 200;
+    /* відстань між строками */
+    margin-bottom: 20px;
+    color: #fcfdfd;
+    /* Колір заголовку на привітальній сторінці */
+}
+
+p {
+    color: #fafafa;
+}
+
+p1 {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 15px;
+    font-weight: 8;
+    color: #fafbf8;
+}
+
+p2 {
+    font-size: 30px;
+    /* font-weight: 3; */
+    color: #19ebfe;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    display: none;
+}

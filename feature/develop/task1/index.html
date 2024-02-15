@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<header>
+    <title>моя візитівка</title>
+    <link rel="stylesheet" href="../../../develop/task1/CSS/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Sofia+Sans+Extra+Condensed:wght@400;900&display=swap"
+        rel="stylesheet">
+
+
+    <style>
+       
+        .welcome-section {
+            background-image: url('../../../develop/task1/images/backGraund.jpg');
+            /* Додайте URL вашого фото */
+            background-size: cover;
+            background-position: center center;
+            height: 95vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+    </style>
+
+
+</header>
+
+<body>
+   
+    
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="http://Lpnu.ua">Lpnu.ua</a></li>
+            </ul>
+        </nav>
+
+        <div class="welcome-section">
+        <div>
+                <h1>Ласкаво просимо!</h1>
+
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            <header>
+                <h2>Діхтярук Валерій</h2>
+                <p>Студент групи КІ-41з
+                    Національного університету "Львівська політехніка"</p>
+                <p1>контактний телефон: +380931176109</p1>
+
+
+            </header>
+            <section>
+                <div>
+
+                    <p2>Моя візитна картка.</p2>
+                </div>
+
+            </section>
+
+            <div class="buttons">
+                <div><a href="https://www.facebook.com/profile.php?id=100017186708575" class="button" target="_blank">Facebook</a></div>
+                <div> <a href="https://twitter.com/" class="button" target="_blank">Twitter</a></div>
+                <div> <a href="https://www.linkedin.com/in/nikita-fraiy-0566122b4" class="button" target="_blank">LinkedIn</a></div>
+                <div><a href="https://github.com/Homya4ok1/web2124ki41zdikhtyarukvv04.git" class="button" target="_blank">Github</a></div>
+                <div><a onclick="showImage()" class="button" target="_blank">Kats<alt=Ваше зображення>
+                            </alt></a></div>
+                <img id='myImage' src="../../../develop/task1/images/Kats.jpg" alt="Ваше зображення">
+
+
+                <!-- Додайте інші кнопки за необхідності -->
+            </div>
+        </div>
+
+        <script>
+            // Додайте JavaScript код для відображення сторінки з анімацією затемнення
+
+                document.body.style.opacity = 1;
+              
+           //show
+            function showImage() {
+
+                var image = document.getElementById('myImage');
+                if (image.style.display === 'none') {
+                    image.style.display = 'block';
+                }
+                else {
+                    image.style.display = 'none';
+
+                }
+            }
+
+        </script>
+        <footer>
+
+            <p1>&copy; 2024 Моя візітівка. Усі права захищені. nikitafraiy1@gmail.com</p1>
+        </footer>
+</body>
+
+</html>
